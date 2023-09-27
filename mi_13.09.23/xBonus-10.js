@@ -4,8 +4,9 @@ Schreiben Sie eine Funktion, die eine andere Funktion als Callback akzeptiert un
 */
 
 
-
-
+function rufeMitCallback(func, wert) {
+  func(wert);
+}
 
 
 // Beispiel-Lösung 10:
