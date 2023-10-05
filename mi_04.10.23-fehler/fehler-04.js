@@ -4,11 +4,11 @@ Aufgabe 4: Die some-Funktion soll überprüfen, ob mindestens eine Zahl in einem
 
 function some(arr, func) {
     for (let i = 0; i < arr.length; i++) {
-      if (!func(arr[i])) {
-        return false;
+      if (func(arr[i])) {
+        return true;
       }
     }
-    return true;
+    return false;
   }
   
   // Beispiel:
